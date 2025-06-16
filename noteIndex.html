@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotonTab</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="top-right">
+      <button id="add-note-btn" title="Add Note" style="font-size: 1.5em; background: none; border: none; cursor: pointer;">➕</button>
+    </div>
+    <div class="emoji">📝</div>
+    <h1>NotonTab</h1>
+    <div class="joke">
+      Why did the web developer go broke?<br>
+      <strong>Because he used up all his cache!</strong>
+    </div>
+    <div>
+       <select id="mode">
+        <option value="all">All Notes</option>
+        <option value="domain">Domain Notes</option>
+        <option value="tab">Tab Notes</option>
+      </select>
+    </div>
+    <div id="notes-list">
+    </div>
+    <div id="note-section" style="display: none;">
+      <textarea id="note" placeholder="Type your note here..."></textarea>
+      <button id="create-note-btn">Save Note</button>
+    </div>
+    <div id="open-create-note">
+       <button id="create-note-btn-open">Create a new note</button>
+    </div>
+    <script src="handler.js"></script>
+  </body>
+</html>

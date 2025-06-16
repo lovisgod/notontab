@@ -1,0 +1,14 @@
+{
+  "name": "NotonTab",
+  "description": "A lightweight Chrome extension that remembers data per tab and domain. Store notes, temporary inputs, or states specific to each open tab or website, without needing a server. Useful for researchers, developers, and power users who want contextual memory while browsing.\n\nKey Features:\n• Automatically captures and stores data based on tab or domain.\n• Isolated storage per site or tab session.\n• Instant access to notes or saved info per site.\n• Fully client-side, no login or server required.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "noteIndex.html",
+    "default_icon": "hello_world.png"
+  }
+}

@@ -1,0 +1,108 @@
+body {
+        min-width: 280px;
+        min-height: 220px;
+        margin: 0;
+        padding: 20px;
+        font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+        background: #fffbe7;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .emoji {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+      .joke {
+        font-size: 1.1em;
+        margin: 10px 0 20px 0;
+        text-align: center;
+      }
+      #note-section {
+        width: 100%;
+        margin-top: 10px;
+      }
+      #note {
+        width: 100%;
+        min-height: 70px;
+        font-size: 1em;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        padding: 8px;
+        box-sizing: border-box;
+        resize: vertical;
+      }
+      #mode {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 4px;
+        border-radius: 4px;
+      }
+      #create-note-btn {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 8px;
+        background: #ffe066;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      #open-create-note{
+        display: block;
+      }
+      #create-note-btn-open {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 8px;
+        background: #ffe066;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      #create-note-btn:hover {
+        background: #ffd43b;
+      }
+        #status {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #555;
+        }
+        #status.success {
+        color: green;
+        }
+        #status.error {
+        color: red;
+        }
+        #status.info {
+        color: blue;
+        }
+        #status.warning {
+        color: orange;
+        }
+        #status.hidden {
+        display: none;
+        }
+
+        /* ...existing styles... */
+        #notes-list li.selected {
+        background: #ffe066;
+        font-weight: bold;
+        border-radius: 4px;
+        }
+        #notes-list li {
+        padding: 4px 8px;
+        margin-bottom: 2px;
+        }
+        .top-right {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+     }
+
